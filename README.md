@@ -20,6 +20,5 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/dhrumesh7/nodejs-textract-captcha
-   cd nodejs-textract-captcha
-```
+   cd nodejs-textract-captcha```
 
