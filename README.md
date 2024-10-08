@@ -12,7 +12,7 @@ This project is a web scraper that retrieves tracking information from the Corre
 
 Before you begin, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version 12 or higher)
+- [Node.js](https://nodejs.org/) (version 18 or higher)
 - An AWS account with Textract enabled
 
 ## Installation
