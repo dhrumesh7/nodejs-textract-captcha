@@ -26,4 +26,12 @@ Before you begin, ensure you have the following installed:
    ```bash
    npm install puppeteer aws-sdk
 
-
+3. **Configure AWS Credentials: Update the AWS Textract configuration in the code with your AWS region and credentials:**:
+   ```bash
+   const textract = new AWS.Textract({ 
+    region: 'your-region', 
+    credentials: {
+        accessKeyId: 'your-access-key-id',
+        secretAccessKey: 'your-secret-access-key'
+    }
+   });
