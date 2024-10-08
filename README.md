@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
    ```bash
    npm install puppeteer aws-sdk
 
-3. **Configure AWS Credentials: Update the AWS Textract configuration in the code with your AWS region and credentials:**:
+3. **Configure AWS Credentials: Update the AWS Textract configuration in the code with your AWS region and credentials**:
    ```bash
    const textract = new AWS.Textract({ 
     region: 'your-region', 
@@ -35,3 +35,13 @@ Before you begin, ensure you have the following installed:
         secretAccessKey: 'your-secret-access-key'
     }
    });
+
+## Usage
+
+1. **Run the scraper with a specific tracking number**:
+   ```bash
+   node texatract.js
+
+2. **Replace 'NM594891585BR' with the tracking number you want to scrape in the following line in index.js**:
+   ```bash
+   scrapeCorreiosTracking('NM594891585BR');
